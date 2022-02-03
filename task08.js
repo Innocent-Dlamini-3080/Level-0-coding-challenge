@@ -18,7 +18,7 @@ function hoursANdMinutes(number){
     if (hours > 1  || hours == 0 ){ 
         hourLabel += "s"
     }
-    if (minutes > 1  || hours == 0 ){ 
+    if (minutes > 1  || minutes == 0 ){ 
         minutes += "s"
 
     return hours+ hourLabel +", "+ minutes + minutesLabel;
