@@ -24,8 +24,8 @@ function findCommonLetters(string1,string2){
             }
         }
     }
-    return common;
+    console.log("Common letters: "+ common);
 
 }
 
-console.log("Common letters: " + findCommonLetters("hoeeuuse","comphhhuuter"));
+findCommonLetters("hoeeuuse","comphhhuuter");
