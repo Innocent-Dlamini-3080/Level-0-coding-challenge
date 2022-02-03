@@ -3,10 +3,10 @@
 function findCommonLetters(string1,string2){
     let common = [];
 
-    string1= string1.toLowerCase();   // converting the string to lowercase
+    string1= string1.toLowerCase();   
     string2= string2.toLowerCase();  
 
-    for (l1 of string1){             //l1 and l2 are elements
+    for (l1 of string1){            
         for (l2 of string2){
             if (l1==l2){
                    common.push(l1);             
