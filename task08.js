@@ -6,7 +6,7 @@ function hoursANdMinutes(number){
     minutesLabel = " minute";
    
     //caculations of minutes and hours
-    while (number > 60){    
+    while (number >= 60){    
       number -= 60;
       hours++;
     }
