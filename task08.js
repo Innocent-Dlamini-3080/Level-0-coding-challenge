@@ -1,5 +1,3 @@
-//
-
 
 function hoursANdMinutes(number){
     let hours = 0;             
@@ -14,17 +12,16 @@ function hoursANdMinutes(number){
     }
     minutes = number; 
 
-    //add suffixes based on the number
+ 
     if (hours > 1  || hours == 0 ){ 
-        hourLabel += "s"
+        hourLabel += "s";
     }
     if (minutes > 1  || minutes == 0 ){ 
-        minutes += "s"
-
+        minutesLabel += "s";
+   }
     return hours+ hourLabel +", "+ minutes + minutesLabel;
-
 }
-hoursANdMinutes(0);
+hoursANdMinutes(61);
 
 
 
