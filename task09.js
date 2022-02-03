@@ -21,4 +21,4 @@ function printVowels(string){
     return vowels ;
 
 }
-console.log(printVowels("aEmanAa"));
+console.log("Vowels: " + printVowels("aEmanAa"));
