@@ -18,7 +18,7 @@ function printVowels(string){
         }
     }
     }
-    return vowels ;
+    console.log("Vowels: "+vowels) ;
 
 }
-console.log("Vowels: " + printVowels("aEmanAa"));
+printVowels("aEmanAa");
