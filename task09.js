@@ -4,7 +4,7 @@ function printVowels(string){
     string= string.toLowerCase();  
 
     for (letter of string){
-        if (letter=="a"|| letter =="e" || letter == "i"|| letter == "o" || letter== "u"){ 
+        if (letter==="a"|| letter =="e" || letter == "i"|| letter == "o" || letter== "u"){ 
             vowels.push(letter);
         }
     // remove duplicates
