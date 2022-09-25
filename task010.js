@@ -29,3 +29,4 @@ function findCommonLetters(string1,string2){
 }
 
 findCommonLetters("hoeeuuse","comphhhuuter");
+
